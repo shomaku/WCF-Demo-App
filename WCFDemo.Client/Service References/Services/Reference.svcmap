@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aa014053-b0fa-4fc9-93ed-bc8b198e34c3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8731/Design_Time_Addresses/WCFDemo.Host/JsonService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0937ed2e-a1ef-490f-90e9-a285864b7247" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFDemo.Host/JsonService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="d65bd885-85ce-435b-913d-56c9e93c2c22" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFDemo.Host/JsonService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="89ce5d54-758e-4b34-8809-f8b42b71c88a" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFDemo.Host/JsonService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

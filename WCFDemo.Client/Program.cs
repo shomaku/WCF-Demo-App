@@ -1,14 +1,14 @@
 ﻿using System;
 using System.IO;
-using WCFDemo.Services;
+using WCFDemo.Client.Services;
 
 namespace WCFDemo.Client
 {
-    internal class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
-            JsonServiceClient client = new JsonServiceClient();
+            var client = new JsonServiceClient();
 
             const string path = @".\test.json";
             byte[] bytes = File.ReadAllBytes(@".\test.json");
