@@ -1,0 +1,21 @@
+{
+  "user": {
+    "id": 1,
+    "name": "admin",
+    "age": 35
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project 1",
+      "isActive": true,
+      "created": "2016-03-12T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "isActive": true,
+      "created": "2016-03-12T10:00:00Z"
+    }
+  ]
+}
